@@ -1,0 +1,162 @@
+.hexagon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  fill: white;
+  height: 150px;
+  justify-content: center;
+  transition: all .5s ease;
+  width: 150px;
+}
+
+
+
+@media (max-width: 467px) {
+  .hexagon {
+    height:75px;
+    width: 75px,
+  }
+}
+
+@media (min-width: 468px) and (max-width: 990px) {
+  .hexagon {
+    height:100px;
+    width: 100px,
+  }
+}
+
+
+ 
+.hexagon:hover {
+  background-color: #FFFFFF;
+}
+
+
+.hexagon > svg {
+  height: 75%;
+  transition: all .5s ease;
+}
+
+.hexagon-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  
+}
+
+/* Colors */
+
+.color-html {
+  background-color: #E34F26;
+
+}
+.color-html::after,
+.color-html::before {
+  border-top-color: #E34F26;
+  border-bottom-color: #E34F26;
+}
+.color-html:hover {
+  fill: #E34F26;
+}
+
+/*-----------------------------------------*/
+
+.color-css {
+  background-color: #1572B6;
+}
+.color-css::after,
+.color-css::before {
+  border-top-color: #1572B6;
+  border-bottom-color: #1572B6;
+}
+.color-css:hover {
+  fill: #1572B6;
+}
+
+/*-----------------------------------------*/
+
+.color-sass {
+  background-color: #CC6699;
+}
+.color-sass::after,
+.color-sass::before {
+  border-top-color: #CC6699;
+  border-bottom-color: #CC6699;
+}
+.color-sass:hover {
+  fill: #CC6699;
+}
+
+/*-----------------------------------------*/
+
+.color-javascript {
+  background-color: #F7DF1E;
+}
+.color-javascript::after,
+.color-javascript::before {
+  border-top-color: #F7DF1E;
+  border-bottom-color: #F7DF1E;
+}
+.color-javascript:hover {
+  fill: #F7DF1E;
+}
+
+
+/*-----------------------------------------*/
+
+.color-react {
+  background-color:  #212529;
+}
+.color-react::after,
+.color-react::before {
+  border-top-color: #212529;
+  border-bottom-color: #212529;
+}
+.color-react:hover {
+  fill:#212529;
+}
+
+/*-----------------------------------------*/
+
+.color-bootstrap {
+  background-color: #563D7C;
+}
+.color-bootstrap::after,
+.color-bootstrap::before {
+  border-top-color: #563D7C;
+  border-bottom-color: #563D7C;
+}
+.color-bootstrap:hover {
+  fill: #563D7C;
+}
+
+
+/*-----------------------------------------*/
+
+.color-git {
+  background-color: #F14E32;
+}
+.color-git::after,
+.color-git::before {
+  border-top-color: #F14E32;
+  border-bottom-color: #F14E32;
+}
+.color-git:hover {
+  fill: #F14E32;
+}
+
+/*-----------------------------------------*/
+
+.color-material-ui {
+  background-color: #0081CB;
+}
+.color-material-ui::after,
+.color-material-ui::before {
+  border-top-color: #0081CB;
+  border-bottom-color: #0081CB;
+}
+.color-material-ui:hover {
+  fill: #0081CB;
+}
+
